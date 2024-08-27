@@ -1,0 +1,106 @@
+name: treck_tonic
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  animate_do:
+  cherry_toast:
+  firebase_cloud_firestore:
+  firebase_core:
+  firebase_storage:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+  fluttertoast: ^8.2.5
+  get_it: ^7.7.0
+  json_annotation: 
+  loading_animation_widget: 
+  uuid: 
+  flutter_screenutil: 
+  gap: 
+  percent_indicator: 
+  awesome_bottom_bar: 
+  fl_chart: 
+  toggle_switch: 
+  go_router: 
+  numberpicker: 
+  bottom_picker: 
+  zego_uikit_prebuilt_call: 
+  flutter_slidable: 
+  url_launcher: 
+  dropdown_button2: 
+  cached_network_image: 
+  feedback:
+  shake: 
+  dartz: 
+  firebase_auth: 
+  pedometer: 
+  animated_text_kit: 
+  intl:
+  sqflite: 
+  path: 
+  font_awesome_flutter: 
+  flutter_email_sender: 
+  path_provider: 
+  flutter_dotenv: 
+  zego_uikit_signaling_plugin: 
+  shared_preferences: 
+  image_picker: 
+  image_cropper: 
+  zego_zimkit: 
+  flutter_paypal_checkout: ^1.0.1
+  permission_handler: ^11.3.1
+  onesignal_flutter: ^5.2.0
+  flutter_native_splash: ^2.4.0
+  rename: ^3.0.2
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/playstore.png"
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#40403F"
+  image: assets/logo/playstore.png
+
+flutter:
+  uses-material-design: true
+  fonts:
+  
+    - family: rocgrotesk
+      fonts:
+        - asset: assets/fonts/Fontspring-DEMO-rocgroteskwide-regular.otf
+  
+    - family: montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+    
+    - family: rocgrotesk-regular
+      fonts:
+        - asset: assets/fonts/Fontspring-DEMO-rocgrotesk-regular.otf
+
+  assets:
+    - lib/.env
+    - assets/icons/
+    - assets/icons/female.png
+    - assets/icons/male.png
+    - assets/images/
+    - assets/logo/
